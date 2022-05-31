@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Ejercicio1;
+package Ejercicio3Ordinario;
 
 import java.io.DataInputStream;
 import java.io.EOFException;
@@ -53,6 +53,9 @@ public class Principal {
             String url = "jdbc:mysql://localhost/Tienda";
             String user = "root";
             String password = "";
+            
+            
+            
 
             Connection con = DriverManager.getConnection(url, user, password);//importar con sql
 
